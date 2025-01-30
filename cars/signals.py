@@ -16,7 +16,7 @@ def car_inventory_update():
 
 @receiver(pre_save, sender = Car)
 def car_pre_save(sender, instance, **kwargs):
-    print('#### PRE SAVE #####')
+    # print('#### PRE SAVE #####')
     if not instance.bio:
         ai_bio = car_bio_ai(instance.model, instance.brand, instance.factory_year)
         instance.bio = ai_bio
