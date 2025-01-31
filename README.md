@@ -1,4 +1,4 @@
-# Loja de Carros
+# Gestão de Carros
 
 ### Sobre
 O projeto consiste em uma aplicação web para uma loja de carros/concessionária, que visa no cadastramento de carros que estarão à venda, edição e remoção dos mesmos, bem como cadastro e login de usuários ao site.
