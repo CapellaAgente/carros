@@ -1,6 +1,6 @@
 import google.generativeai as genai
 
-key = 'insert your API'
+key = 'insert your API here'
 
 def car_bio_ai(model, brand, year):
     genai.configure(api_key = key)
