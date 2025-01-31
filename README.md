@@ -2,6 +2,7 @@
 
 ### Sobre
 O projeto consiste em uma aplicação web para uma loja de carros/concessionária, que visa no cadastramento de carros que estarão à venda, edição e remoção dos mesmos, bem como cadastro e login de usuários ao site.
+Projeto feito no curso [Django Master](https://pycodebr.com.br/) do Felipe Azambuja/[PycodeBR](https://github.com/pycodebr)
 
 ### Instalação
 
@@ -57,3 +58,13 @@ http://127.0.0.1:8000/cars
 #Página administrativa
 http://127.0.0.1:8000/admin
 ```
+
+### Google Gemini
+
+A aplicação utiliza o Google Gemini para criação de descrição dos carros.
+
+Para conseguir habilitar o recurso, acesse o [Google AI Studio](https://aistudio.google.com/app/apikey?hl=pt-br) e crie uma chave API "Generative Language Client".
+
+Copie e cole a chave indicado no arquivo em "google_api/client.py"
+
+Na hora de cadastrar um carro, deixe a descrição em branco e a IA automaticamente criará uma para você!
