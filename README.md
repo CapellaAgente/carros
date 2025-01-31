@@ -6,7 +6,7 @@ Projeto feito no curso [Django Master](https://pycodebr.com.br/) do Felipe Azamb
 
 ### Instalação
 
-*Utilize versões do Python antes da 3.13, pois há erros de instalação para a biblioteca "grpcio"
+*Utilize versões do Python antes da 3.13, pois há erros de instalação para a biblioteca "grpcio".*
 Para baixar a aplicação, execute o comando abaixo em seu terminal:
 
 ```bash
